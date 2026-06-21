@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My GitHub Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .container {
+            text-align: center;
+            background: white;
+            padding: 60px 40px;
+            border-radius: 15px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            max-width: 700px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 2.5em;
+        }
+        .subtitle {
+            color: #667eea;
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+        p {
+            color: #666;
+            line-height: 1.8;
+            margin-bottom: 20px;
+            font-size: 1.05em;
+        }
+        .button-group {
+            margin-top: 40px;
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .button {
+            display: inline-block;
+            background-color: #667eea;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            font-weight: 600;
+        }
+        .button:hover {
+            background-color: #764ba2;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+        .button.secondary {
+            background-color: transparent;
+            border: 2px solid #667eea;
+            color: #667eea;
+        }
+        .button.secondary:hover {
+            background-color: #667eea;
+            color: white;
+        }
+        .features {
+            margin-top: 50px;
+            padding-top: 50px;
+            border-top: 2px solid #eee;
+        }
+        .features h2 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+        .feature-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            text-align: left;
+        }
+        .feature-item {
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+        .feature-item h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        .feature-item p {
+            margin: 0;
+            font-size: 0.95em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hello! 👋</h1>
+        <p class="subtitle">Welcome to my GitHub Pages site</p>
+        <p>I'm samson6178, a developer passionate about building amazing projects on GitHub.</p>
+        <p>This page showcases my work and projects. Feel free to explore my repositories and get in touch!</p>
+        
+        <div class="button-group">
+            <a href="https://github.com/samson6178" class="button">Visit My Profile</a>
+            <a href="https://github.com/samson6178/Hello-" class="button secondary">View Repository</a>
+        </div>
+
+        <div class="features">
+            <h2>What I Do</h2>
+            <div class="feature-list">
+                <div class="feature-item">
+                    <h3>🚀 Development</h3>
+                    <p>Building web applications and open-source projects</p>
+                </div>
+                <div class="feature-item">
+                    <h3>💡 Innovation</h3>
+                    <p>Creating solutions to interesting problems</p>
+                </div>
+                <div class="feature-item">
+                    <h3>🤝 Collaboration</h3>
+                    <p>Contributing to and collaborating on projects</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
